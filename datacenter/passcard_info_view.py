@@ -1,4 +1,3 @@
-"""Passcard info view."""
 from django.shortcuts import Http404, render
 
 from datacenter.models import Passcard, Visit, format_duration

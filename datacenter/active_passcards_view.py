@@ -1,4 +1,3 @@
-"""Active passcards view."""
 from django.shortcuts import render
 
 from datacenter.models import Passcard

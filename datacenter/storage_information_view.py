@@ -1,4 +1,3 @@
-"""Storage information view."""
 from django.shortcuts import render
 
 from datacenter.models import Visit, format_duration

@@ -1,4 +1,3 @@
-"""URLS."""
 from django.conf.urls import url
 
 from datacenter.active_passcards_view import active_passcards_view
