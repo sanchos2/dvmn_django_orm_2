@@ -37,6 +37,10 @@ DB_USER=database user
 DB_PASSWORD=database password
 SECRET_KEY=secret key
 DEBUG=True
+USE_L10N=True
+LANGUAGE_CODE=en-US
+TIME_ZONE=UTC
+USE_TZ=True
 ```
 note: on production environment setup DEBUG to False
 

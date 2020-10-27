@@ -39,10 +39,10 @@ TEMPLATES = [
 ]
 
 
-USE_L10N = True
+USE_L10N = env.bool('USE_L10N')
 
-LANGUAGE_CODE = 'ru-ru'
+LANGUAGE_CODE = os.getenv('LANGUAGE_CODE')
 
-TIME_ZONE = 'Europe/Moscow'
+TIME_ZONE = os.getenv('TIME_ZONE')
 
-USE_TZ = True
+USE_TZ = env.bool('USE_TZ')
