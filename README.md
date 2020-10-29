@@ -36,6 +36,7 @@ DB_NAME=database name
 DB_USER=database user
 DB_PASSWORD=database password
 SECRET_KEY=secret key
+ALLOWED_HOSTS=localhost,127.0.0.1,[::1]
 DEBUG=True
 USE_L10N=True
 LANGUAGE_CODE=en-US
